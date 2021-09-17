@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<WHITELIST>
+    <PerfService>
+        <Package name="com.imangi.templerun2">
+            <Activity name="Common">
+                <CMD_SET_CPU_CORE_MIN Param1="3"/>
+            </Activity>
+        </Package>
+        <Package name="com.tencent.tmgp.sgame">
+            <Activity name="Common">
+                <CMD_SET_PACK_BOOST_TIMEOUT Param1="25"/>
+                <CMD_SET_FSTB_FPS Param1="60" Param2="30"/>
+                <CMD_SET_FBT_FLOOR_BOUND Param1="1"/>
+                <CMD_SET_FBT_KMIN Param1="10"/>
+	        <CMD_SET_FBT_SWITCH_CPUSET Param1="0"/>
+                <CMD_SET_FSTB_FORCE_VAG Param1="1"/>
+            </Activity>
+        </Package>
+        <Package name="com.gameloft.android.ANMP.GloftA8HM">
+            <Activity name="Common">
+                <CMD_SET_FSTB_FPS Param1="30" Param2="30"/>
+            </Activity>
+        </Package>
+        <Package name="com.happyelements.AndroidAnimal.qq">
+            <Activity name="Common">
+                <CMD_SET_FSTB_FPS Param1="50" Param2="26"/>
+            </Activity>
+        </Package>
+        <Package name="com.happyelements.AndroidAnimal">
+            <Activity name="Common">
+                <CMD_SET_FSTB_FPS Param1="50" Param2="26"/>
+                <CMD_SET_FLOOR_OPP Param1="10"/>
+                <CMD_SET_NTH_FRAME Param1="15"/>
+            </Activity>
+        </Package>
+        <Package name="com.kiloo.subwaysurf">
+            <Activity name="Common">
+                <CMD_SET_FSTB_FPS Param1="55" Param2="26"/>
+            </Activity>
+        </Package>
+       <Package name="com.kiloo.subwaysurf">
+            <Activity name="Common">
+            <CMD_SET_PACK_BOOST_MODE Param1="4"/>
+            <CMD_SET_PACK_BOOST_TIMEOUT Param1="20"/>
+            </Activity>
+        </Package>
+       <Package name="com.supercell.clashofclans.vivo">
+            <Activity name="Common">
+            <CMD_SET_PACK_BOOST_MODE Param1="4"/>
+            <CMD_SET_PACK_BOOST_TIMEOUT Param1="25"/>
+            </Activity>
+        </Package>
+       <Package name="com.m37.yhjyj.vivo">
+            <Activity name="Common">
+            <CMD_SET_PACK_BOOST_MODE Param1="4"/>
+            <CMD_SET_PACK_BOOST_TIMEOUT Param1="20"/>
+            </Activity>
+        </Package>
+       <Package name="com.netease.l10.vivo">
+            <Activity name="Common">
+            <CMD_SET_PACK_BOOST_MODE Param1="4"/>
+            <CMD_SET_PACK_BOOST_TIMEOUT Param1="20"/>
+            </Activity>
+        </Package>
+    </PerfService>
+</WHITELIST>

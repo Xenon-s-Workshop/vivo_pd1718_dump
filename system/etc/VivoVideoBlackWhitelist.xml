@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<content>
+  <version>1</version>
+  <application name="com.tencent.mm">
+      <feature name="encoder">
+          <resolution name="960x544">
+              <values  name="bt:1200;md:1;tn:7;qp:40;rt:50.0;bn:3">
+              </values>
+          </resolution>
+          <resolution name="960x540">
+              <values  name="bt:1200;md:1;tn:7;qp:40;rt:50.0;bn:3">
+              </values>
+          </resolution>
+          <resolution name="960x480">
+              <values  name="bt:1200;md:1;tn:7;qp:40;rt:50.0;bn:3">
+              </values>
+          </resolution>
+      </feature>
+  </application>
+</content>

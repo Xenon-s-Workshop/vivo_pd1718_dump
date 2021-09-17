@@ -1,0 +1,12 @@
+kernel=kernel
+ramdisk=ramdisk
+page_size=2048
+kernel_size=9359556
+ramdisk_size=3321044
+base_addr=0x40078000
+kernel_offset=0x00008000
+ramdisk_offset=0x14f88000
+tags_offset=0x13f88000
+cmd_line='bootopt=64S3,32N2,64N2 product.version=PD1718_A_1.10.6 fingerprint.abbr=7.1.1/N6F26Q buildvariant=user'
+board="1519995942"
+format=gzip
